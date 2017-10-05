@@ -3,7 +3,10 @@ import React from 'react';
 //
 import ReactDOM from 'react-dom';
 // ReactDOM library is the one that is being used to interact doms, while react is to create and manage components
-console.log('is this rendering?');
+const API_KEY = 'AIzaSyAo8tozmokmZgPweiTW82Y_dOS9U5ST8vk';
+// download youtube-api-search package
+
+console.log('hello');
 // Create a new component and // this component should
 // product some html.
 const App = function () {
