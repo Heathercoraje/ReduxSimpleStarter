@@ -3,11 +3,20 @@ import React from 'react';
 //
 import ReactDOM from 'react-dom';
 // ReactDOM library is the one that is being used to interact doms, while react is to create and manage components
-console.log('is this rendering?');
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'AIzaSyAo8tozmokmZgPweiTW82Y_dOS9U5ST8vk';
+// download youtube-api-search package
+
+console.log('hello');
 // Create a new component and // this component should
 // product some html.
 const App = function () {
-  return <div>Heather! This is the last lecture! </div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  );
 }; // this is a class but we need to pass instance by instantiate <div></div> (= <App />)
 
 // we have html inside js! JSL (It looks like html but it is js, where webpack and babel take a role to transpile)
